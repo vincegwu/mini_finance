@@ -87,7 +87,35 @@ git branch
 
 ---
 
-### **Step 4: Stage & Commit Your Changes**
+### **Step 4: How to Add a Dynamic Footer Date**
+
+To display the deployment date dynamically in your footer, use this code snippet:
+
+```html
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-12">
+                <p class="copyright-text">
+                    Mini Finance v1.0 — Deployed on <span id="deploy-date"></span> — By Egwu Vincent Oko
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    // Dynamically set deployment date in DD Mon YYYY format
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const now = new Date();
+    const day = String(now.getDate()).padStart(2, '0');
+    const month = months[now.getMonth()];
+    const year = now.getFullYear();
+    document.getElementById('deploy-date').textContent = `${day} ${month} ${year}`;
+</script>
+```
+---
+
+### **Step 5: Stage & Commit Your Changes**
 1️⃣ Check the status of modified files:
 
 ```sh
@@ -108,7 +136,7 @@ git commit -m "Updated profile page with my details"
 
 ---
 
-### **Step 5: Push Changes to GitHub**
+### **Step 6: Push Changes to GitHub**
 1️⃣ Push your changes to your feature branch:  
 
 ```sh
@@ -122,7 +150,7 @@ git push origin feature-alex-smith
 
 ---
 
-### **Step 6: Create a Pull Request (PR)**
+### **Step 7: Create a Pull Request (PR)**
 1️⃣ Go to the **GitHub repository**:  
 👉 [Mini Finance GitHub Repository](https://github.com/pravinmishraaws/mini_finance)  
 2️⃣ Click **"Compare & Pull Request"**.  
