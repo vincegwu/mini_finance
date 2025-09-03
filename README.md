@@ -205,7 +205,7 @@ To build your credibility as a developer and showcase your **real-world Git & Gi
 **I just completed the ‘Git & GitHub Pro for AWS’ course and successfully contributed to a real-world GitHub project!** 🎉  
 
 As part of the course, I worked on the **Mini Finance Project**, where I:  
-🔹 Cloned a remote repository and set up Git.  
+🔹 Cloned a remote repository and set up Git.
 🔹 Created and managed branches.  
 🔹 Made meaningful contributions to the Profile Page.  
 🔹 Submitted a **Pull Request (PR)** following industry best practices.  
