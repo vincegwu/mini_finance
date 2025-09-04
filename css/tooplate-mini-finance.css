@@ -788,35 +788,6 @@ strong {
 }
 
 /*---------------------------------------
-  CUSTOM FOOTER
------------------------------------------*/
-
-.custom-footer {
-    background: #181c20; /* Dark background for contrast */
-    padding: 1.2rem 0 1rem 0;
-    margin-top: 2rem;
-}
-
-.custom-footer .copyright-text {
-    color: #fff; /* White text for contrast */
-    font-size: 1rem;
-    letter-spacing: 0.01em;
-    line-height: 1.6;
-    text-align: center;
-    margin: 0;
-}
-
-@media (max-width: 600px) {
-    .custom-footer .copyright-text {
-        font-size: 0.95rem;
-        padding: 0 10px;
-    }
-    .custom-footer {
-        padding: 0.8rem 0 0.7rem 0;
-    }
-}
-
-/*---------------------------------------
   SEARCH, PROFILE FORM               
 -----------------------------------------*/
 .profile-form .input-group .form-control {
@@ -983,6 +954,31 @@ strong {
 .site-footer {
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.custom-footer {
+    background: #181c20; /* Dark background for contrast */
+    padding: 1.2rem 0 1rem 0;
+    margin-top: 2rem;
+}
+
+.custom-footer .copyright-text {
+    color: #fff; /* White text for contrast */
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .custom-footer .copyright-text {
+        font-size: 0.95rem;
+        padding: 0 10px;
+    }
+    .custom-footer {
+        padding: 0.8rem 0 0.7rem 0;
+    }
 }
 
 .copyright-text {
